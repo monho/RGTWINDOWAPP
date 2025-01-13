@@ -50,7 +50,6 @@ RGT/
 ├── RGT.Infrastructure/
 │   ├── Services/
 │   │   ├── OrderSimulator.cs    # 주문 데이터를 시뮬레이션하는 서비스
-│   │   └── OrderService.cs      # 윈도우 서비스 구현
 ├── RGT/
 │   ├── Form1.cs                 # 메인 UI 폼
 │   ├── Program.cs               # 애플리케이션 진입점
