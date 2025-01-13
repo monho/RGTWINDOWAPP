@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGT", "RGT\RGT.csproj", "{7D691183-7EB5-4705-9D48-704AA6CE59F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RGT", "RGT\RGT.csproj", "{7D691183-7EB5-4705-9D48-704AA6CE59F1}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RgtSetup", "RgtSetup\RgtSetup.vdproj", "{1AA6655C-F30C-4038-A7AE-8A48FC46EFC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{7D691183-7EB5-4705-9D48-704AA6CE59F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D691183-7EB5-4705-9D48-704AA6CE59F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D691183-7EB5-4705-9D48-704AA6CE59F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA6655C-F30C-4038-A7AE-8A48FC46EFC8}.Debug|Any CPU.ActiveCfg = Debug
+		{1AA6655C-F30C-4038-A7AE-8A48FC46EFC8}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

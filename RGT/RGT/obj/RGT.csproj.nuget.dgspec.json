@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\RGTWINDOWAPP\\RGT\\RGT\\RGT.csproj": {}
+    "C:\\RGTWINDOWAPP\\RGT\\RGT\\RGT.csproj": {}
   },
   "projects": {
-    "F:\\RGTWINDOWAPP\\RGT\\RGT\\RGT.csproj": {
+    "C:\\RGTWINDOWAPP\\RGT\\RGT\\RGT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\RGTWINDOWAPP\\RGT\\RGT\\RGT.csproj",
+        "projectUniqueName": "C:\\RGTWINDOWAPP\\RGT\\RGT\\RGT.csproj",
         "projectName": "RGT",
-        "projectPath": "F:\\RGTWINDOWAPP\\RGT\\RGT\\RGT.csproj",
+        "projectPath": "C:\\RGTWINDOWAPP\\RGT\\RGT\\RGT.csproj",
         "packagesPath": "C:\\Users\\moon\\.nuget\\packages\\",
-        "outputPath": "F:\\RGTWINDOWAPP\\RGT\\RGT\\obj\\",
+        "outputPath": "C:\\RGTWINDOWAPP\\RGT\\RGT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
