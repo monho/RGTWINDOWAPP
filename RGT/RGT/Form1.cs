@@ -321,7 +321,7 @@ namespace RGT
                     foreach (var hour in dailyStatistics[date].Keys.OrderBy(h => h))
                     {
                         int totalOrders = dailyStatistics[date][hour];
-                        orderData.Rows.Add(date, $"{hour}:00", totalOrders);
+                        orderData.Rows.Add(date ?? "Unknown", $"{hour}:00", totalOrders);
                     }
                 }
 
@@ -332,9 +332,11 @@ namespace RGT
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"대시보드 업데이트 중 오류가 발생했습니다: {ex.Message}");
+                MessageBox.Show($"Dashboard update error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+
 
         private void InitializeOrderDataGrid()
         {
