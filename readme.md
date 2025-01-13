@@ -53,8 +53,7 @@ RGT/
 │   └── App.config               # 윈도우 서비스 구성
 └── README.md                    # 프로젝트 설명서
 
----
-
+```
 # RGT Order Management System - 사용자 가이드
 
 ## 1. 프로그램 실행
