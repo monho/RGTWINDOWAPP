@@ -33,7 +33,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_B10BB5DFF86642B9909797AB5907E59A"
+        "MsmKey" = "8:_8FC28583B7DE4EC296F4665616236902"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -106,6 +106,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -207,7 +215,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B10BB5DFF86642B9909797AB5907E59A"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8FC28583B7DE4EC296F4665616236902"
             {
             "SourcePath" = "8:..\\RGT\\bin\\Debug\\net8.0-windows\\RGT.exe"
             "TargetName" = "8:RGT.exe"
@@ -435,29 +443,29 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_17C491D3844341A587B6DF113F895069"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4E8245F19A70447FABB5C64B957B2A61"
             {
-            "Name" = "8:주문관리시스템-문준호"
+            "Name" = "8:주문관리시스템"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_B10BB5DFF86642B9909797AB5907E59A"
+            "Target" = "8:_8FC28583B7DE4EC296F4665616236902"
             "Folder" = "8:_7635CB4FA2C844F490167CA422FBB378"
             "WorkingFolder" = "8:_73612E3B73AA42FFB7C8C379E8153890"
             "Icon" = "8:"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_9828EE31B7644D8BB0BD96E666CA6C80"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D4E42427C59B49959C5ABC5234C760F5"
             {
-            "Name" = "8:주문관리시스템-문준호"
+            "Name" = "8:주문관리시스템"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_B10BB5DFF86642B9909797AB5907E59A"
+            "Target" = "8:_8FC28583B7DE4EC296F4665616236902"
             "Folder" = "8:_674B6FE9EAEF4839840C57AB5E14DA45"
             "WorkingFolder" = "8:_73612E3B73AA42FFB7C8C379E8153890"
             "Icon" = "8:"
