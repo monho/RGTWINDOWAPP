@@ -26,7 +26,7 @@ namespace RGT.Infrastructure.Services
         {
             try
             {
-                Timer = new System.Timers.Timer(6000);
+                Timer = new System.Timers.Timer(60000);
                 Timer.Elapsed += GenerateOrders;
                 Timer.Start();
             }
