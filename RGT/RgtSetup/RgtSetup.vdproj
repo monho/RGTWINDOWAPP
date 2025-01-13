@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_14AC3C2FE9DC453EB0A334C2157EB336"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_4846E34E2E6A4FCFAF3E20CF6EC162D0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -34,6 +28,12 @@
         "Entry"
         {
         "MsmKey" = "8:_7D188465AF094FD7A459D7C820EEBB04"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B10BB5DFF86642B9909797AB5907E59A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -67,6 +67,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -83,6 +99,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -112,26 +136,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_14AC3C2FE9DC453EB0A334C2157EB336"
-            {
-            "SourcePath" = "8:..\\RGT\\bin\\Debug\\net8.0-windows\\RGT.exe"
-            "TargetName" = "8:RGT.exe"
-            "Tag" = "8:"
-            "Folder" = "8:_73612E3B73AA42FFB7C8C379E8153890"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4846E34E2E6A4FCFAF3E20CF6EC162D0"
             {
             "SourcePath" = "8:..\\RGT\\bin\\Debug\\net8.0-windows\\RGT.runtimeconfig.json"
@@ -187,6 +191,26 @@
                 }
             "SourcePath" = "8:..\\RGT\\bin\\Debug\\net8.0-windows\\RGT.dll"
             "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_73612E3B73AA42FFB7C8C379E8153890"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B10BB5DFF86642B9909797AB5907E59A"
+            {
+            "SourcePath" = "8:..\\RGT\\bin\\Debug\\net8.0-windows\\RGT.exe"
+            "TargetName" = "8:RGT.exe"
             "Tag" = "8:"
             "Folder" = "8:_73612E3B73AA42FFB7C8C379E8153890"
             "Condition" = "8:"
@@ -291,7 +315,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:RgtSetup"
         "ProductCode" = "8:{EC1BDB5B-0131-4452-B5E2-98AD15D38E8D}"
-        "PackageCode" = "8:{1C61922B-8B6F-459F-99B6-7B4CCC2CBE72}"
+        "PackageCode" = "8:{A81383A8-81CD-457A-AFB2-14999ED01074}"
         "UpgradeCode" = "8:{3C00625B-4ED6-47DF-84AF-9248992A1E21}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -411,29 +435,29 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1DA38592943A4D4B89A08E5E20698DE6"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_17C491D3844341A587B6DF113F895069"
             {
-            "Name" = "8:주문관리시스템"
+            "Name" = "8:주문관리시스템-문준호"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_14AC3C2FE9DC453EB0A334C2157EB336"
+            "Target" = "8:_B10BB5DFF86642B9909797AB5907E59A"
             "Folder" = "8:_7635CB4FA2C844F490167CA422FBB378"
             "WorkingFolder" = "8:_73612E3B73AA42FFB7C8C379E8153890"
             "Icon" = "8:"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_BC50490FB44441F98AE95FB1B0C89081"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_9828EE31B7644D8BB0BD96E666CA6C80"
             {
-            "Name" = "8:주문관리시스템"
+            "Name" = "8:주문관리시스템-문준호"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_14AC3C2FE9DC453EB0A334C2157EB336"
+            "Target" = "8:_B10BB5DFF86642B9909797AB5907E59A"
             "Folder" = "8:_674B6FE9EAEF4839840C57AB5E14DA45"
             "WorkingFolder" = "8:_73612E3B73AA42FFB7C8C379E8153890"
             "Icon" = "8:"

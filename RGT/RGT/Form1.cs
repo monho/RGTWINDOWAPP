@@ -312,29 +312,33 @@ namespace RGT
 
         private void UpdateDashboard()
         {
-            try
+            // UI 스레드에서 실행되도록 Invoke로 감쌉니다.
+            if (orderData.InvokeRequired)
             {
-                orderData.Rows.Clear();
+                orderData.Invoke(new Action(UpdateDashboard));
+                return;
+            }
 
-                foreach (var date in dailyStatistics.Keys)
-                {
-                    foreach (var hour in dailyStatistics[date].Keys.OrderBy(h => h))
-                    {
-                        int totalOrders = dailyStatistics[date][hour];
-                        orderData.Rows.Add(date ?? "Unknown", $"{hour}:00", totalOrders);
-                    }
-                }
+            // DataGridView 초기화
+            orderData.Rows.Clear();
 
-                foreach (var hour in hourlyStatistics.Keys.OrderBy(k => k))
+            // 일별 통계 데이터 추가
+            foreach (var date in dailyStatistics.Keys)
+            {
+                foreach (var hour in dailyStatistics[date].Keys.OrderBy(h => h))
                 {
-                    orderData.Rows.Add("전체", $"{hour}:00", hourlyStatistics[hour]);
+                    int totalOrders = dailyStatistics[date][hour];
+                    orderData.Rows.Add(date, $"{hour}:00", totalOrders);
                 }
             }
-            catch (Exception ex)
+
+            // 시간대별 통계 데이터 추가
+            foreach (var hour in hourlyStatistics.Keys.OrderBy(k => k))
             {
-                MessageBox.Show($"Dashboard update error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                orderData.Rows.Add("전체", $"{hour}:00", hourlyStatistics[hour]);
             }
         }
+
 
 
 
